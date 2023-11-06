@@ -1,4 +1,5 @@
 <script>
+import Img from './components/AppHero.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 export default {
   data() {
@@ -6,6 +7,9 @@ export default {
       title: 'La mia prima app con Vite!'
     }
   },
+  components: {
+    Img
+  }
 }
 </script>
 
@@ -20,6 +24,9 @@ export default {
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
 <h1> {{ title }}</h1>
+
+<Img/>
+
 
 </template>
 
